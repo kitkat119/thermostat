@@ -1,3 +1,5 @@
+'use strict';
+
 function Thermostat() {
   this.DEFAULT_TEMP = 20;
   this.MIN_TEMP = 10;
@@ -25,7 +27,7 @@ Thermostat.prototype.decreaseTemp = function() {
 };
 
 Thermostat.prototype.isPowerSaving = function() {
-  return this._powerSaving;
+  return this._powerSaving ? "on" : "off";
 };
 
 Thermostat.prototype.switchPowerSaving = function() {
