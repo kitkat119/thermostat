@@ -1,3 +1,14 @@
+body {
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+    text-align: center;
+font-family: 'Allerta Stencil';font-size: 22px;
+}
+
+#temp {
+  font-size: 150px;
+}
+
+
 .low-usage {
   color: green;
 }
